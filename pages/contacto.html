@@ -5,17 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <nav>
         <ul>
-            <img class="logo" src="img/logo.png" alt="">
-            <li><a href="ruta">Herramientas</a></li>
-            <li><a href="ruta">Maquinaria</a></li>
-            <li><a href="ruta">Contacto</a></li>
+            <a href="../index.html"><img class="logo" src="../img/logo.png" alt=""></a>
+            <li><a href="herramientas.html">Herramientas</a></li>
+            <li><a href="maquinaria.html">Maquinaria</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
         </ul>
     </nav>
-    <script src="./js/main.j"></script>
+    <main>
+
+        <div>
+            <form>
+
+                <div>
+					<p>Nombre</p>
+                    <input type="text" name="name" placeholder="Ingresa tu nombre..." required>
+                </div>
+
+                <div>
+					<p>Mail</p>
+                    <input type="email" name="email" id="email" class="form--control" placeholder="Ingresa tu Email..." required>
+                </div>
+
+                <div>
+                    <p>Dejanos tu consulta</p>
+                    <textarea name="comment" placeholder="Escribe tu comentario..."></textarea>
+                </div>
+
+                <div>
+                    <button>
+						<a href="...">Enviar</a>
+					</button>
+                </div>
+            </form>
+        </div>
+		<p>Redes</p>
+		<div>
+			<a href="https://www.facebook.com/">
+				<img src="../img/logofacebook.png" alt="facebook">
+			</a>
+			<a href="https://twitter.com/Rog4d4sD10S">
+				<img src="../img/logotwitter.png" alt="twitter">
+			</a>
+			<a href="https://github.com/rodrixxxxx">
+				<img src="../img/logogithub.png" alt="github">
+			</a>
+		</div>
+
+    </main>
+    <script src="./js/contacto.js"></script>
 </body>
 </html>
