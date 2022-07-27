@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap");
 /*------- BODY -------*/
 body{
     background-color: aliceblue;
@@ -46,3 +47,14 @@ nav ul li a{
 .fontSize{
     font-size: 30px;
 }
+
+.textCenter {
+    text-align: center;
+  }
+  
+.productoMargenes {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
