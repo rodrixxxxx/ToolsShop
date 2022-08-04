@@ -5,4 +5,5 @@ boton.addEventListener("click", enviarNotificacion);    //CONECTO BOTON CON EL E
 
 function enviarNotificacion(){
     document.getElementById("cartelEnviar").innerHTML = "Su consulta fue en viada con exito";  //MODIFICO EL "P" VACIO PARA QUE SE TRANSFORME EN EL MENSAJE
+    swal("Mensaje Enviado!", "Gracias por su tiempo!", "success");
 }
